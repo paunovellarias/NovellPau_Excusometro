@@ -19,6 +19,32 @@ h1 {
 }
 
 
+nav {
+
+    background-color: yellow;
+    text-align: center;
+    padding: 16px;
+
+}
+
+
+nav a {
+
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 12px;
+
+}
+
+
+nav a:hover {
+
+    color: red;
+
+}
+
+
 h2 {
 
     font-size: 1.6em;
@@ -61,6 +87,23 @@ main {
 }
 
 
+.excusa{
+
+    background-color: white;
+    padding: 20px;
+    margin: 0 30px;
+
+}
+
+.excusa h3{
+
+    color: red;
+    margin-top: 0;
+    
+    
+}
+
+
 section {
 
     background-color: white;
@@ -79,7 +122,7 @@ section {
 
 #comoFunciona {
 
-    color: green;
+    color: lime;
 
 }
 
