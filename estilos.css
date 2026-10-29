@@ -143,4 +143,30 @@ footer a {
     color: white;
     font-weight: bold;
 }
- 
+
+
+.evidencia {
+
+    background-color: beige;
+    padding: 1em;
+    margin: 1.5em 0;
+    border-width: 0.15em;
+    border-style: solid;
+    border-color: black;
+}
+
+
+.evidencias img {
+
+    max-width: 100%;
+    display: block;
+
+}
+
+
+.evidencia figcaption {
+
+    margin-top: 0.75em;
+    font-size: 0.9em;
+    font-weight: bold;
+}
