@@ -1,172 +1,321 @@
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&family=Trebuchet+MS&display=swap');
-
-
 body {
-
+    font-family: Georgia, "Times New Roman", serif;
     margin: 0;
-    background-color: yellow;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: black;
-
-}
-
-
-h1 {
-
-    color: yellow;
-    font-size: 3.5em;
-
-}
-
-
-nav {
-
-    background-color: yellow;
-    text-align: center;
-    padding: 16px;
-
-}
-
-
-nav a {
-
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-    margin: 0 12px;
-
-}
-
-
-nav a:hover {
-
-    color: red;
-
-}
-
-
-h2 {
-
-    font-size: 1.6em;
-    color: red;
-
-}
-
-
-p {
-
-    line-height: 1.5;
-
-}
-
-
-header p{
-
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: white;
-
+    background-color: #111112;
+    color: #e5e0d5;
+    font-size: 16px;
+    line-height: 1.7;
 }
 
 
 header {
-
-    padding: 40px;
+    background-color: #171617;
+    color: #e5e0d5;
     text-align: center;
-    background-color: red;
-    color: whitesmoke;
+    padding: 60px 30px;
+    border-bottom: 3px solid #8e252d;
+}
 
+
+header p {
+    color: #c8b99a;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+
+h1 {
+    color: #e5e0d5;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 5rem;
+    font-weight: 700;
+    margin: 10px 0;
+    letter-spacing: 10px;
+}
+
+
+.frase {
+    color: #a9a19a;
+    font-style: italic;
+}
+
+
+nav {
+    background-color: #292526;
+    text-align: center;
+    padding: 16px;
+    border-bottom: 3px solid #8e252d;
+}
+
+
+nav a {
+    color: #e5e0d5;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+
+nav a:hover {
+    color: #c34b50;
 }
 
 
 main {
-
-    padding: 30px;
+    max-width: 900px;
     margin: auto;
-
-}
-
-
-.excusa{
-
-    background-color: white;
-    padding: 20px;
-    margin: 0 30px;
-
-}
-
-.excusa h3{
-
-    color: red;
-    margin-top: 0;
-    
-    
+    padding: 40px 30px;
 }
 
 
 section {
+    background-color: #1c1a1b;
+    margin-bottom: 24px;
+    padding: 30px;
+    border: 1.67px solid #393334;
+}
 
-    background-color: white;
+
+h2 {
+    color: #c34b50;
+    font-family: "Courier New", monospace;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 0;
+}
+
+
+p {
+    margin-bottom: 16px;
+}
+
+
+.expedient-resum {
+    background-color: #252122;
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
+    border: 1px solid #494142;
+    border-left: 4px solid #8e252d;
+}
 
+.expedient-resum h3 {
+    color: #e5e0d5;
+    margin-top: 8px;
+    font-size: 1.4rem;
+}
+
+.codi {
+    color: #c34b50;
+    font-family: "Courier New", monospace;
+    font-size: 0.8em;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 
 
-.como {
-
-    background-color: bisque;
-
+#estat {
+    background-color: #171617;
+    color: #e5e0d5;
+    border: 1px solid #8e252d;
 }
 
 
-#comoFunciona {
+#estat h2 {
+    color: #c8b99a;
+}
 
-    color: lime;
 
+.panell-estat {
+    margin-top: 1.5em;
+    display: flex;
+    gap: 1em;
+}
+
+
+.dada-estat {
+    background-color: #292526;
+    color: #e5e0d5;
+    padding: 1em;
+    margin-bottom: 0.75em;
+    border: 1px solid #635353;
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.etiqueta {
+    font-family: "Courier New", monospace;
+    font-weight: 700;
+    display: block;
+    font-size: 0.85em;
+    margin-bottom: .3em;
+    color: #c8b99a;
+}
+
+.valor {
+    color: #e5e0d5;
+    display: inline-block;
+    background-color: #8e252d;
+    padding: .3em .6em;
+    border: 1px solid #b45a5e;
+    font-family: "Courier New", monospace;
+    font-size: 0.8em;
+    font-weight: 700;
+}
+
+
+ul {
+    line-height: 1.9;
+}
+
+
+ol {
+    line-height: 1.9;
+}
+
+
+li {
+    margin-bottom: 8px;
+}
+
+
+main a {
+    color: #c34b50;
+    font-family: "Courier New", monospace;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+main a:hover {
+    color: #e5e0d5;
+    text-decoration: underline;
+}
+
+.tornar {
+    margin-top: 30px;
 }
 
 
 footer {
-
-    padding: 20px;
+    background-color: #292526;
+    color: #c8b99a;
     text-align: center;
-    background-color: red;
-    color: white;
-    font-weight: bold;
-    
+    padding: 24px;
+    border-top: 2px solid #8e252d;
+}
+
+
+footer p {
+    font-weight: 700;
+    margin: 0;
 }
 
 
 footer a {
+    display: inline-block;
+    margin-top: 8px;
+    color: #e5e0d5;
+    font-family: "Courier New", monospace;
+    font-weight: 700;
+    text-decoration: none;
+}
 
-    color: white;
-    font-weight: bold;
+
+footer a:hover {
+    color: #c34b50;
+    text-decoration: underline;
+}
+
+
+.expedient header {
+    background-image: url("img/fons-expedient.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+.capçalera-expedient {
+    position: relative;
+}
+
+
+.segell-classificat {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    background-color: #8e252d;
+    color: #e5e0d5;
+    padding: 0.4em 0.7em;
+    border: 2px solid #c8b99a;
+    font-family: "Courier New", monospace;
+    font-weight: 700;
 }
 
 
 .evidencia {
-
-    background-color: beige;
+    background-color: #292526;
     padding: 1em;
     margin: 1.5em 0;
-    border-width: 0.15em;
-    border-style: solid;
-    border-color: black;
+    border: 0.15em solid #635353;
 }
 
 
-.evidencias img {
-
+.evidencies img {
     max-width: 100%;
     display: block;
-
 }
 
 
 .evidencia figcaption {
-
     margin-top: 0.75em;
+    font-family: "Courier New", monospace;
     font-size: 0.9em;
-    font-weight: bold;
+    font-weight: 700;
+    color: #c8b99a;
+}
+
+
+.graella-evidencies {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em;
+}
+
+
+.nivell-credibilitat {
+    display: inline-block;
+    background-color: #8e252d;
+    color: #ffffff;
+    padding: .3em .6em;
+    margin-left: .3em;
+    font-family: "Courier New", monospace;
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+
+.avis-sistema {
+    position: fixed;
+    right: 1em;
+    bottom: 1em;
+    background-color: #171617;
+    color: #c8b99a;
+    padding: .6em 1em;
+    border: .1em solid #8e252d;
+    font-family: "Courier New", monospace;
+    font-size: 0.75em;
+}
+
+
+.foto-cas {
+    width: 12em;
+    float: left;
+    margin-right: 1em;
+    margin-bottom: .5em;
+    border: .15em solid #635353;
+}
+
+
+.descripcio-fenomen {
+    overflow: auto;
 }
